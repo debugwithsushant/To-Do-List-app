@@ -60,7 +60,7 @@ li button {
   margin: 0px 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 320px) {
   input, button {
     width: 90%;
     margin: 5px auto;
