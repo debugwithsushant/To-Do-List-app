@@ -6,6 +6,7 @@ body {
 
 .todo-container {
   margin-top: 50px;
+  padding: 0 20px;
 }
 
 input {
@@ -15,6 +16,7 @@ input {
 }
 
 button {
+  padding: 10px;
   cursor: pointer;
 }
 
@@ -58,15 +60,27 @@ li.completed p {
 li button {
   padding: 5px 10px;
   margin: 0px 30px;
+  font-size: 14px;
+  border-radius: 3px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   input, button {
     width: 90%;
     margin: 5px auto;
+    display: block;
   }
 
   li {
     width: 90%;
+  }
+
+  li button {
+    margin: 10px 5px;
+    font-size: 13px;
+  }
+
+  button {
+    padding: 12px;
   }
 }
